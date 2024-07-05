@@ -1,0 +1,50 @@
+.BrainQuiz_container__Yk_j9 canvas {
+    position: absolute;
+    top: 57px;
+    left: 57px;
+    width: 900px;
+    height: 546.92px;
+    box-sizing: border-box
+}
+
+@media(max-width:1280px) {
+    .BrainQuiz_container__Yk_j9 canvas {
+        top: 0;
+        left: 0;
+        width: 344px;
+        height: 212px;
+        border: 2px solid #fff
+    }
+}
+
+.BrainQuiz_quizMobileContainer__cypEW {
+    position: relative;
+    z-index: 60
+}
+
+.BrainQuiz_canvasMobileContainer__Zx30_ {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    width: auto !important;
+    z-index: 1000 !important;
+    background-color: #000;
+    background-image: none;
+    transform: none;
+    max-height: --webkit-fill-available;
+    -webkit-user-drag: none;
+    touch-action: none
+}
+
+.BrainQuiz_canvasMobileContainer__Zx30_ canvas {
+    position: relative;
+    border: none;
+    top: 0;
+    left: 0
+}
